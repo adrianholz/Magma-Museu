@@ -1,0 +1,21 @@
+@import url(css/reset.css);
+@import url(css/global.css);
+@import url(css/header.css);
+@import url(css/intro.css);
+@import url(css/news.css);
+@import url(css/programs.css);
+@import url(css/footer.css);
+@import url(css/about.css);
+@import url(css/guarani.css);
+@import url(css/geologico.css);
+@import url(css/studies.css);
+
+:root {
+  --w1: #cecece;
+  --w2: #ffffff;
+  --d1: #ffcb08;
+  --d2: #fba819;
+  --d3: #f36f21;
+  --b1: #823421;
+  --b2: #232323;
+}
