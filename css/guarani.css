@@ -1,0 +1,149 @@
+.guarani {
+  padding: 80px 20px;
+}
+
+.guarani-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.guarani-inner h1 {
+  font-size: 4.8rem;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.guarani-inner p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin-bottom: 15px;
+}
+
+.guarani-inner iframe,
+.guarani-inner img {
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.25) 0px 3px 7px -3px;
+}
+
+.guarani-inner > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 80px;
+}
+
+.guarani-inner strong {
+  font-weight: 500;
+}
+
+.guarani-inner > div:nth-child(2) > div:nth-child(2) iframe {
+  margin-bottom: 20px;
+}
+
+.guarani-inner > div:nth-child(3) div {
+  margin-top: 20px;
+}
+
+.guarani-inner > div:nth-child(3) {
+  margin-top: 10px;
+}
+
+.guarani-inner h2 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.guarani-inner > div:nth-child(4),
+.guarani-inner > div:nth-child(5) {
+  margin-top: 80px;
+}
+
+.guarani-inner img {
+  max-width: 500px;
+  width: 100%;
+}
+
+.guarani-inner > div:nth-child(5) {
+  display: block;
+  margin-top: 80px;
+}
+
+.guarani-inner > div:nth-child(5) > p {
+  max-width: 420px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.guarani-inner > div:nth-child(5) > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px 70px;
+}
+
+.guarani-inner > div:nth-child(5) img {
+  max-width: unset;
+  width: 100%;
+  object-fit: cover;
+  max-height: 336px;
+}
+
+.guarani-inner > div:nth-child(6) {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px 60px;
+  margin-top: 80px;
+}
+
+.guarani-inner > div:nth-child(6) > p {
+  grid-column: span 2;
+  max-width: 560px;
+}
+
+.guarani-inner > div:nth-child(6) img {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1240px) {
+  .guarani-inner > div {
+    grid-template-columns: 1fr;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+  .guarani-inner h1 {
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .guarani-inner iframe {
+    width: 100%;
+    max-width: 100%;
+  }
+  .guarani-2,
+  .guarani-3 {
+    display: none;
+  }
+  .guarani-inner > div:nth-child(5) > div {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .guarani-inner > div:nth-child(6) {
+    display: block;
+    margin-top: 0;
+  }
+  .guarani-inner > div:nth-child(6) img {
+    max-width: unset;
+    width: 100%;
+    object-fit: cover;
+    max-height: 336px;
+  }
+}
+
+@media (max-width: 720px) {
+  .guarani {
+    padding-top: 60px;
+  }
+  .guarani-inner h1 {
+    font-size: 4.2rem;
+  }
+}
